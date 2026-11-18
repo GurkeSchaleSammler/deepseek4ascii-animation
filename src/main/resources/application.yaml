@@ -1,0 +1,20 @@
+server:
+  address: 127.0.0.1
+  tomcat:
+    max-http-form-post-size: -1
+    max-part-count: -1
+    max-parameter-count: -1
+
+spring:
+  application:
+    name: demo
+  servlet:
+    multipart:
+      max-file-size: -1
+      max-request-size: -1
+      file-size-threshold: 0
+  mvc:
+    problemdetails:
+      enabled: true
+
+deepseek-apikey: // API KEY
